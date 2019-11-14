@@ -1,5 +1,6 @@
 package aashish.coventry.esoftwarica;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -56,6 +57,14 @@ public class DashBoard extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.fragmentlayout, addFragment);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
+            }
+        });
+
+        btnweb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashBoard.this, WebViewActivity.class);
+                startActivity(intent);
             }
         });
     }
