@@ -4,8 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragment.DisplayFragment">
+    tools:context=".fragment.DisplayFragment"
+    android:padding="10dp">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student List"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#E1053BC5"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

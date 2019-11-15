@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -14,7 +15,7 @@ import aashish.coventry.esoftwarica.fragment.DisplayFragment;
 
 public class DashBoard extends AppCompatActivity {
 
-    Button btndisplay, btnadd, btnweb;
+    ImageView btndisplay, btnadd, btnweb;
     // LinearLayout linearLayout;
     boolean status = true;
 

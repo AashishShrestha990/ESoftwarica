@@ -9,30 +9,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add student" />
+            android:text="Add student"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#E1053BC5"/>
 
         <EditText
             android:id="@+id/txtname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="name" />
+            android:hint="Name" />
 
         <EditText
             android:id="@+id/txtage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="age" />
+            android:hint="Age" />
 
         <EditText
             android:id="@+id/txtaddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="address" />
+            android:hint="Address" />
 
         <RadioGroup
             android:id="@+id/rg"
